@@ -1,35 +1,35 @@
 
-# Minecraft Bedrock Server Manager “ú–{Œê‰»”Å
+# Minecraft Bedrock Server Manager æ—¥æœ¬èªåŒ–ç‰ˆ
 Original:[Benjerman](https://github.com/Benjerman)  
 Original Project:[Github](https://github.com/Benjerman/Minecraft-Server-Manager)  
 ![alt text](https://i.imgur.com/HeBCNjL.png)
 
 
-## “ú–{Œê‰»i‚Ü‚¾Š®‘S‚Å‚Í‚È‚¢j
-[Benjerman](https://github.com/Benjerman)‚ªŠJ”­‚µ‚½Minecraft Bedrock EditioniˆÈ‰ºA“‡”Åj‚ÌŒö®ƒT[ƒo[ƒ\ƒtƒg‚ğGUI‚Å‘€ì‚Å‚«‚é‹@”\‚ğÀ‘•‚µ‚½ƒAƒvƒŠƒP[ƒVƒ‡ƒ“A 
-[Minecraft Bedrock Server Manager]https://github.com/Benjerman/Minecraft-Server-Manager) ‚ğ“ú–{Œê‰»‚µ‚Ü‚µ‚½B‚½‚¾‚µA‚Ü‚¾Š®‘S‚Å‚Í‚ ‚è‚Ü‚¹‚ñB
+## æ—¥æœ¬èªåŒ–ï¼ˆã¾ã å®Œå…¨ã§ã¯ãªã„ï¼‰
+[Benjerman](https://github.com/Benjerman)æ°ãŒé–‹ç™ºã—ãŸMinecraft Bedrock Editionï¼ˆä»¥ä¸‹ã€çµ±åˆç‰ˆï¼‰ã®å…¬å¼ã‚µãƒ¼ãƒãƒ¼ã‚½ãƒ•ãƒˆã‚’GUIã§æ“ä½œã§ãã‚‹æ©Ÿèƒ½ã‚’å®Ÿè£…ã—ãŸã‚¢ãƒ—ãƒªã‚±ãƒ¼ã‚·ãƒ§ãƒ³ã€
+[Minecraft Bedrock Server Manager](https://github.com/Benjerman/Minecraft-Server-Manager)ã‚’æ—¥æœ¬èªåŒ–ã—ã¾ã—ãŸã€‚ãŸã ã—ã€ã¾ã å®Œå…¨ã§ã¯ã‚ã‚Šã¾ã›ã‚“ã€‚
   
   
-## ƒtƒH[ƒN‚µ‚½——R
-Java EditioniˆÈ‰ºAJava”Åjƒ}ƒCƒNƒ‰ƒtƒg‚Å‚ÍAŒö®ƒT[ƒo[©‘ÌGUI‚ğ‚Á‚Ä‚¨‚èA‚Ü‚½ƒT[ƒo[ŠÇ—ƒ\ƒtƒg‚Æ‚µ‚ÄƒT[ƒhƒp[ƒeƒB»‚ÌƒT[ƒo[ŠÇ—ƒ\ƒtƒg‚ª[À‚µ‚Ä‚¢‚é‚Ì‚É‘Î‚µ‚ÄA“‡”Å—p‚ÌƒT[ƒo[ƒ\ƒtƒg‚Í2021”N10ŒŒ»İAƒAƒ‹ƒtƒ@”Å‚Æ‚Ü‚¾ŠJ”­’†‚Æ‚¢‚¤‚±‚Æ‚à‚ ‚èJava”Å‚Å‚ ‚Á‚½‚æ‚¤‚ÈGUI‚à‚Ü‚¾À‘•‚³‚ê‚Ä‚¨‚ç‚¸ACUIƒx[ƒX‚Å“®ì‚·‚é‚à‚Ì‚É‚È‚Á‚Ä‚¢‚Ü‚·B‚Ü‚½AŠCŠO‚Ì•û‚ªŠJ”­‚³‚ê‚Ä‚½‚Æ‚¢‚¤–‚à‚ ‚èAƒeƒLƒXƒg‚È‚Ç‘S‚Ä‰pŒê‚ÅÀ‘•‚³‚ê‚Ä‚¢‚é‚Ì‚ÅA“ú–{l‚É‚à‘½­g‚¢‚â‚·‚­‚µ‚½‚©‚Á‚½‚½‚ßAƒtƒH[ƒN‚µ“ú–{Œê‰»‚ğ‚µ‚Ü‚µ‚½B
+## ãƒ•ã‚©ãƒ¼ã‚¯ã—ãŸç†ç”±
+Java Editionï¼ˆä»¥ä¸‹ã€Javaç‰ˆï¼‰ãƒã‚¤ã‚¯ãƒ©ãƒ•ãƒˆã§ã¯ã€å…¬å¼ã‚µãƒ¼ãƒãƒ¼è‡ªä½“GUIã‚’æŒã£ã¦ãŠã‚Šã€ã¾ãŸã‚µãƒ¼ãƒãƒ¼ç®¡ç†ã‚½ãƒ•ãƒˆã¨ã—ã¦ã‚µãƒ¼ãƒ‰ãƒ‘ãƒ¼ãƒ†ã‚£è£½ã®ã‚µãƒ¼ãƒãƒ¼ç®¡ç†ã‚½ãƒ•ãƒˆãŒå……å®Ÿã—ã¦ã„ã‚‹ã®ã«å¯¾ã—ã¦ã€çµ±åˆç‰ˆç”¨ã®ã‚µãƒ¼ãƒãƒ¼ã‚½ãƒ•ãƒˆã¯2021å¹´10æœˆç¾åœ¨ã€ã‚¢ãƒ«ãƒ•ã‚¡ç‰ˆã¨ã¾ã é–‹ç™ºä¸­ã¨ã„ã†ã“ã¨ã‚‚ã‚ã‚ŠJavaç‰ˆã§ã‚ã£ãŸã‚ˆã†ãªGUIã‚‚ã¾ã å®Ÿè£…ã•ã‚Œã¦ãŠã‚‰ãšã€CUIãƒ™ãƒ¼ã‚¹ã§å‹•ä½œã™ã‚‹ã‚‚ã®ã«ãªã£ã¦ã„ã¾ã™ã€‚ã¾ãŸã€æµ·å¤–ã®æ–¹ãŒé–‹ç™ºã•ã‚Œã¦ãŸã¨ã„ã†äº‹ã‚‚ã‚ã‚Šã€ãƒ†ã‚­ã‚¹ãƒˆãªã©å…¨ã¦è‹±èªã§å®Ÿè£…ã•ã‚Œã¦ã„ã‚‹ã®ã§ã€æ—¥æœ¬äººã«ã‚‚å¤šå°‘ä½¿ã„ã‚„ã™ãã—ãŸã‹ã£ãŸãŸã‚ã€ãƒ•ã‚©ãƒ¼ã‚¯ã—æ—¥æœ¬èªåŒ–ã‚’ã—ã¾ã—ãŸã€‚
   
   
-## ƒrƒ‹ƒh•û–@
-Œã“ú‹Lq‚µ‚Ü‚·B
+## ãƒ“ãƒ«ãƒ‰æ–¹æ³•
+å¾Œæ—¥è¨˜è¿°ã—ã¾ã™ã€‚
   
   
-## g—p•û–@
-1.[MinecraftŒö®ƒ_ƒEƒ“ƒ[ƒhƒy[ƒW](https://www.minecraft.net/ja-jp/download/server/bedrock)‚©‚ç“‡”ÅƒT[ƒo[‚ğƒ_ƒEƒ“ƒ[ƒh‚µ‚Ü‚·B
-1.”CˆÓ‚ÌêŠ‚ÉZIPƒtƒHƒ‹ƒ_[‚ğ‰ğ“€‚µ‚Ü‚·B
-1.‰ğ“€‚µ‚½ƒtƒHƒ‹ƒ_[‚Ì’†‚Éƒrƒ‹ƒh‚Åo‚Ä‚«‚½3‚Â‚Ìƒtƒ@ƒCƒ‹‚ğƒRƒs[‚µ‚Ü‚·B
-1.Minecraft Bedrock Server Manager.exe‚ğÀs‚µA¶ã‚ÌŠJnƒ{ƒ^ƒ“‚ğ‰Ÿ‚·‚ÆƒT[ƒo[‚ª‰Ò“­‚µ‚Ü‚·B
-ˆÈã
+## ä½¿ç”¨æ–¹æ³•
+1.[Minecraftå…¬å¼ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ãƒšãƒ¼ã‚¸](https://www.minecraft.net/ja-jp/download/server/bedrock)ã‹ã‚‰çµ±åˆç‰ˆã‚µãƒ¼ãƒãƒ¼ã‚’ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã—ã¾ã™ã€‚
+1.ä»»æ„ã®å ´æ‰€ã«ZIPãƒ•ã‚©ãƒ«ãƒ€ãƒ¼ã‚’è§£å‡ã—ã¾ã™ã€‚
+1.è§£å‡ã—ãŸãƒ•ã‚©ãƒ«ãƒ€ãƒ¼ã®ä¸­ã«ãƒ“ãƒ«ãƒ‰ã§å‡ºã¦ããŸ3ã¤ã®ãƒ•ã‚¡ã‚¤ãƒ«ã‚’ã‚³ãƒ”ãƒ¼ã—ã¾ã™ã€‚
+1.Minecraft Bedrock Server Manager.exeã‚’å®Ÿè¡Œã—ã€å·¦ä¸Šã®é–‹å§‹ãƒœã‚¿ãƒ³ã‚’æŠ¼ã™ã¨ã‚µãƒ¼ãƒãƒ¼ãŒç¨¼åƒã—ã¾ã™ã€‚
+ä»¥ä¸Š
 
-~‚ß‚éÛ‚Í’â~ƒ{ƒ^ƒ“‚ğ‰Ÿ‚·‚ÆƒT[ƒo[‚ğ•Â‚¶‚é–‚ªo—ˆ‚Ü‚·B
+æ­¢ã‚ã‚‹éš›ã¯åœæ­¢ãƒœã‚¿ãƒ³ã‚’æŠ¼ã™ã¨ã‚µãƒ¼ãƒãƒ¼ã‚’é–‰ã˜ã‚‹äº‹ãŒå‡ºæ¥ã¾ã™ã€‚
   
   
-### Ql
-- [Benjerman‚ÌGithubƒy[ƒW](https://github.com/Benjerman)
+### å‚è€ƒ
+- [Benjermanæ°ã®Githubãƒšãƒ¼ã‚¸](https://github.com/Benjerman)
 - [Benjerman/Minecraft-Server-Manager](https://github.com/Benjerman/Minecraft-Server-Manager)
-- [BedrockƒT[ƒo[ƒ_ƒEƒ“ƒ[ƒh | Minecraft](https://www.minecraft.net/ja-jp/download/server/bedrock)i“ú–{Œê - Japanesej
-- [Bedrock Server Download | Minecraft](https://www.minecraft.net/en-us/download/server/bedrock)i‰pŒê - Englishj
+- [Bedrockã‚µãƒ¼ãƒãƒ¼ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ | Minecraft](https://www.minecraft.net/ja-jp/download/server/bedrock)ï¼ˆæ—¥æœ¬èª - Japaneseï¼‰
+- [Bedrock Server Download | Minecraft](https://www.minecraft.net/en-us/download/server/bedrock)ï¼ˆè‹±èª - Englishï¼‰
