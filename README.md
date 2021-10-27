@@ -6,16 +6,18 @@ Original Project:[Github](https://github.com/Benjerman/Minecraft-Server-Manager)
 
 
 ## “ú–{Œê‰»i‚Ü‚¾Š®‘S‚Å‚Í‚È‚¢j
-[Benjerman](https://github.com/Benjerman)‚ªŠJ”­‚µ‚½Minecraft Bedrock EditioniˆÈ‰ºA“‡”Åj‚ÌŒö®ƒT[ƒo[ƒ\ƒtƒg‚ğGUI‚Å‘€ì‚Å‚«‚é‹@”\‚ğÀ‘•‚µ‚½ƒAƒvƒŠƒP[ƒVƒ‡ƒ“A[Minecraft Bedrock Server Manager]https://github.com/Benjerman/Minecraft-Server-Manager) ‚ğ“ú–{Œê‰»‚µ‚Ü‚µ‚½B‚½‚¾‚µA‚Ü‚¾Š®‘S‚Å‚Í‚ ‚è‚Ü‚¹‚ñB
-
-
+[Benjerman](https://github.com/Benjerman)‚ªŠJ”­‚µ‚½Minecraft Bedrock EditioniˆÈ‰ºA“‡”Åj‚ÌŒö®ƒT[ƒo[ƒ\ƒtƒg‚ğGUI‚Å‘€ì‚Å‚«‚é‹@”\‚ğÀ‘•‚µ‚½ƒAƒvƒŠƒP[ƒVƒ‡ƒ“A 
+[Minecraft Bedrock Server Manager]https://github.com/Benjerman/Minecraft-Server-Manager) ‚ğ“ú–{Œê‰»‚µ‚Ü‚µ‚½B‚½‚¾‚µA‚Ü‚¾Š®‘S‚Å‚Í‚ ‚è‚Ü‚¹‚ñB
+  
+  
 ## ƒtƒH[ƒN‚µ‚½——R
 Java EditioniˆÈ‰ºAJava”Åjƒ}ƒCƒNƒ‰ƒtƒg‚Å‚ÍAŒö®ƒT[ƒo[©‘ÌGUI‚ğ‚Á‚Ä‚¨‚èA‚Ü‚½ƒT[ƒo[ŠÇ—ƒ\ƒtƒg‚Æ‚µ‚ÄƒT[ƒhƒp[ƒeƒB»‚ÌƒT[ƒo[ŠÇ—ƒ\ƒtƒg‚ª[À‚µ‚Ä‚¢‚é‚Ì‚É‘Î‚µ‚ÄA“‡”Å—p‚ÌƒT[ƒo[ƒ\ƒtƒg‚Í2021”N10ŒŒ»İAƒAƒ‹ƒtƒ@”Å‚Æ‚Ü‚¾ŠJ”­’†‚Æ‚¢‚¤‚±‚Æ‚à‚ ‚èJava”Å‚Å‚ ‚Á‚½‚æ‚¤‚ÈGUI‚à‚Ü‚¾À‘•‚³‚ê‚Ä‚¨‚ç‚¸ACUIƒx[ƒX‚Å“®ì‚·‚é‚à‚Ì‚É‚È‚Á‚Ä‚¢‚Ü‚·B‚Ü‚½AŠCŠO‚Ì•û‚ªŠJ”­‚³‚ê‚Ä‚½‚Æ‚¢‚¤–‚à‚ ‚èAƒeƒLƒXƒg‚È‚Ç‘S‚Ä‰pŒê‚ÅÀ‘•‚³‚ê‚Ä‚¢‚é‚Ì‚ÅA“ú–{l‚É‚à‘½­g‚¢‚â‚·‚­‚µ‚½‚©‚Á‚½‚½‚ßAƒtƒH[ƒN‚µ“ú–{Œê‰»‚ğ‚µ‚Ü‚µ‚½B
-
+  
+  
 ## ƒrƒ‹ƒh•û–@
 Œã“ú‹Lq‚µ‚Ü‚·B
-
-
+  
+  
 ## g—p•û–@
 1.[MinecraftŒö®ƒ_ƒEƒ“ƒ[ƒhƒy[ƒW](https://www.minecraft.net/ja-jp/download/server/bedrock)‚©‚ç“‡”ÅƒT[ƒo[‚ğƒ_ƒEƒ“ƒ[ƒh‚µ‚Ü‚·B
 1.”CˆÓ‚ÌêŠ‚ÉZIPƒtƒHƒ‹ƒ_[‚ğ‰ğ“€‚µ‚Ü‚·B
@@ -24,7 +26,8 @@ Java EditioniˆÈ‰ºAJava”Åjƒ}ƒCƒNƒ‰ƒtƒg‚Å‚ÍAŒö®ƒT[ƒo[©‘ÌGUI‚ğ‚Á‚Ä‚¨‚èA‚
 ˆÈã
 
 ~‚ß‚éÛ‚Í’â~ƒ{ƒ^ƒ“‚ğ‰Ÿ‚·‚ÆƒT[ƒo[‚ğ•Â‚¶‚é–‚ªo—ˆ‚Ü‚·B
-
+  
+  
 ### Ql
 - [Benjerman‚ÌGithubƒy[ƒW](https://github.com/Benjerman)
 - [Benjerman/Minecraft-Server-Manager](https://github.com/Benjerman/Minecraft-Server-Manager)
