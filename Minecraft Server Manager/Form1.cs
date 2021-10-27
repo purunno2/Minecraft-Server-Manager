@@ -16,7 +16,7 @@ namespace Minecraft_Server_Manager
         Process minecraftProcess;
         StreamWriter mcInputStream;
 
-        string players = "Loading Player List.....";
+        string players = "プレイヤーリストを読込中...";
         string players2 = "";
 
 
@@ -212,7 +212,7 @@ namespace Minecraft_Server_Manager
             {
                 if (this.minecraftProcess.HasExited)
                 {
-                    txtOutput.AppendText("\r\n\r\nThe server has been shutdown.\r\n");
+                    txtOutput.AppendText("\r\n\r\nサーバーが停止しました。\r\n");
                     File.AppendAllText(@"ServerLog.csv", "\r\n" + DateTime.Now.ToString() + " " + "The server has been shutdown.\r\n");
                     return;
                 }
@@ -230,7 +230,7 @@ namespace Minecraft_Server_Manager
 
         public void ProcessExited(object sender, EventArgs e)
         {
-            txtOutput.AppendText("\r\n\r\nThe server has been shutdown.\r\n");
+            txtOutput.AppendText("\r\n\r\nサーバーが停止しました。\r\n");
             File.AppendAllText(@"ServerLog.csv", "\r\n" + DateTime.Now.ToString() + " " + "The server has been shutdown.\r\n");
 
         }
@@ -499,6 +499,26 @@ namespace Minecraft_Server_Manager
                 configuration.AppSettings.Settings["automaticBackups"].Value = "false";
                 configuration.Save(ConfigurationSaveMode.Modified);
             }
+
+        }
+
+        private void playerTxtOutput_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+         
+        }
+
+        private void gameRuleComboBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtOutput_TextChanged(object sender, EventArgs e)
+        {
 
         }
     }
