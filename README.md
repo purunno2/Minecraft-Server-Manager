@@ -30,30 +30,30 @@ Microsoft Visual Studio 2019（以下、VS2019）と、C#アドオンをイン�
 1. このページの<span style="background-color:rgb(35,134,54)"><span style="color:rgb(255,255,255)"> **Code** </span></span>ボタンから「Download ZIP」を押し、ダウンロードします。  
 <img src="https://imgur.com/AzObz16.png" width="320">
 
-1. 任意の場所に解凍し、`Minecraft Server Manager.sln`をクリックすると、VS2019が起動します。  
+2. 任意の場所に解凍し、`Minecraft Server Manager.sln`をクリックすると、VS2019が起動します。  
 <video width="480" height="270" controls>
   <source src="https://i.imgur.com/MDHsr50.mp4" type="video/mp4">
 </video>
 
-1. ここで、対象となるフレームワークがインストールされていないと、メッセージが出てきます。その場合は中央の「".NETFramework,Version=v4.6.1"のターゲットパックをダウンロードする(D)。プロジェクトは変更されません。」を選択します。  
+3. ここで、対象となるフレームワークがインストールされていないと、メッセージが出てきます。その場合は中央の「".NETFramework,Version=v4.6.1"のターゲットパックをダウンロードする(D)。プロジェクトは変更されません。」を選択します。  
 ※何もメッセージウィンドウが出ずに開けた場合は、「6.」へスキップしてください。  
 <img src="https://imgur.com/30r9VHe.png" width="320">
 
-1. ブラウザが起動しますので、Webサイトを下へスクロールし、.NET Framework欄の.NET Framework 4.6.1のDeveloper Packをダウンロードし、インストールします。  
+4. ブラウザが起動しますので、Webサイトを下へスクロールし、.NET Framework欄の.NET Framework 4.6.1のDeveloper Packをダウンロードし、インストールします。  
 <img src="https://imgur.com/J0Me4kS.png" width="320">
 
-1. VS2019を一度閉じ、再度`Minecraft Server Manager.sln`をクリックし起動します。何も表示されなければ、ソリューション（ソースファイル群）の読み込みに成功しています。
-1. （必須ではない）最近のパソコンは64bitが主流ですので、64bitアプリとしてビルドします。VS2019上部の「Any CPU」と書いてあるプルダウンメニューを開き「構成マネージャー」を開きます。   
+5. VS2019を一度閉じ、再度`Minecraft Server Manager.sln`をクリックし起動します。何も表示されなければ、ソリューション（ソースファイル群）の読み込みに成功しています。
+6. （必須ではない）最近のパソコンは64bitが主流ですので、64bitアプリとしてビルドします。VS2019上部の「Any CPU」と書いてあるプルダウンメニューを開き「構成マネージャー」を開きます。   
 ※32bitアプリケーションとして使用する場合は「8.」へスキップしてください。  
 <img src="https://imgur.com/zvOKmW1.png" width="320">
 
-1. 「アクティブソリューション構成(C)」を”Release”に、「アクティブソリューションプラットフォーム(P)」を”x64”にして、構成マネージャーを閉じます。  
+7. 「アクティブソリューション構成(C)」を”Release”に、「アクティブソリューションプラットフォーム(P)」を”x64”にして、構成マネージャーを閉じます。  
 <img src="https://imgur.com/4qd8d8H.png" width="320">
 
-1. ビルドを行います。VS2019上部メニュー「ビルド(B)」の”ソリューションのビルド(B)”を選択するとビルドが始まります。  
+8. ビルドを行います。VS2019上部メニュー「ビルド(B)」の”ソリューションのビルド(B)”を選択するとビルドが始まります。  
 <img src="https://imgur.com/hze6rfi.png" width="320">
 
-1. 成功すると、`Minecraft-Server-Manager-master\Minecraft Server Manager\bin\x64\Release`の中に`Minecraft Server Manager.exe`と`Minecraft Server Manager.exe.Config`ができていればビルド成功です。  
+9. 成功すると、`Minecraft-Server-Manager-master\Minecraft Server Manager\bin\x64\Release`の中に`Minecraft Server Manager.exe`と`Minecraft Server Manager.exe.Config`ができていればビルド成功です。  
 <img src="https://imgur.com/8PGWrAX.png" width="320">  
 <br>
 <br>
