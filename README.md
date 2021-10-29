@@ -31,9 +31,8 @@ Microsoft Visual Studio 2019（以下、VS2019）と、C#アドオンをイン�
 <img src="https://imgur.com/AzObz16.png" width="320">
 
 2. 任意の場所に解凍し、`Minecraft Server Manager.sln`をクリックすると、VS2019が起動します。  
-<video width="480" height="270" controls>
-  <source src="https://i.imgur.com/MDHsr50.mp4" type="video/mp4">
-</video>
+
+https://user-images.githubusercontent.com/69942251/139399350-ec1eea99-020b-4047-a663-4cbfc50d91f1.mp4
 
 3. ここで、対象となるフレームワークがインストールされていないと、メッセージが出てきます。その場合は中央の「".NETFramework,Version=v4.6.1"のターゲットパックをダウンロードする(D)。プロジェクトは変更されません。」を選択します。  
 ※何もメッセージウィンドウが出ずに開けた場合は、「6.」へスキップしてください。  
@@ -42,7 +41,9 @@ Microsoft Visual Studio 2019（以下、VS2019）と、C#アドオンをイン�
 4. ブラウザが起動しますので、Webサイトを下へスクロールし、.NET Framework欄の.NET Framework 4.6.1のDeveloper Packをダウンロードし、インストールします。  
 <img src="https://imgur.com/J0Me4kS.png" width="320">
 
-5. VS2019を一度閉じ、再度`Minecraft Server Manager.sln`をクリックし起動します。何も表示されなければ、ソリューション（ソースファイル群）の読み込みに成功しています。
+5. VS2019を一度閉じ、再度`Minecraft Server Manager.sln`をクリックし起動します。何も表示されなければ、ソリューション（ソースファイル群）の読み込みに成功しています。  
+<br>
+
 6. （必須ではない）最近のパソコンは64bitが主流ですので、64bitアプリとしてビルドします。VS2019上部の「Any CPU」と書いてあるプルダウンメニューを開き「構成マネージャー」を開きます。   
 ※32bitアプリケーションとして使用する場合は「8.」へスキップしてください。  
 <img src="https://imgur.com/zvOKmW1.png" width="320">
@@ -53,7 +54,7 @@ Microsoft Visual Studio 2019（以下、VS2019）と、C#アドオンをイン�
 8. ビルドを行います。VS2019上部メニュー「ビルド(B)」の”ソリューションのビルド(B)”を選択するとビルドが始まります。  
 <img src="https://imgur.com/hze6rfi.png" width="320">
 
-9. 成功すると、`Minecraft-Server-Manager-master\Minecraft Server Manager\bin\x64\Release`の中に`Minecraft Server Manager.exe`と`Minecraft Server Manager.exe.Config`ができていればビルド成功です。  
+9. `Minecraft-Server-Manager-master\Minecraft Server Manager\bin\x64\Release`の中に`Minecraft Server Manager.exe`と`Minecraft Server Manager.exe.Config`ができていればビルド成功です。  
 <img src="https://imgur.com/8PGWrAX.png" width="320">  
 <br>
 <br>
@@ -62,10 +63,16 @@ Microsoft Visual Studio 2019（以下、VS2019）と、C#アドオンをイン�
 1. [Minecraft公式ダウンロードページ](https://www.minecraft.net/ja-jp/download/server/bedrock)から統合版サーバーをダウンロードします。  
 1. 任意の場所にZIPフォルダーを解凍します。  
 1. 解凍したフォルダーの中にビルドで出てきた2つのファイルをコピーします。  
-1. Minecraft Bedrock Server Manager.exeを実行し、左上の開始ボタンを押すとサーバーが稼働します。  
+1. Minecraft Server Manager.exeを実行し、左上の開始ボタンを押すとサーバーが稼働します。  
 以上。  
 <br>
 止める際は停止ボタンを押すとサーバーを閉じる事が出来ます。  
+<br>
+<br>
+
+## 免責
+このアプリケーションのビルド、または使用によって、如何なる場合も私[purunno2](https://github.com/purunno2)、[Benjerman](https://github.com/Benjerman)氏は責任を負いかねます。  
+自己責任でご利用ください。  
 <br>
 <br>
 
@@ -75,3 +82,4 @@ Microsoft Visual Studio 2019（以下、VS2019）と、C#アドオンをイン�
 - [Visual Studio Tools のダウンロード](https://visualstudio.microsoft.com/ja/downloads/)（日本語 - Japanese）
 - [Bedrockサーバーダウンロード | Minecraft](https://www.minecraft.net/ja-jp/download/server/bedrock)（日本語 - Japanese）
 - [Bedrock Server Download | Minecraft](https://www.minecraft.net/en-us/download/server/bedrock)（英語 - English）
+- [purunno2のGithubページ](https://github.com/purunno2)
