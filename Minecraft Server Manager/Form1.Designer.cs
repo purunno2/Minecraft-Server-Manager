@@ -344,7 +344,7 @@
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(109, 15);
             this.label6.TabIndex = 26;
-            this.label6.Text = "サーバープロパティ";
+            this.label6.Text = "ゲームルール";
             // 
             // dateTimePicker1
             // 
@@ -388,7 +388,7 @@
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(86, 15);
             this.label8.TabIndex = 31;
-            this.label8.Text = "サーバー設定";
+            this.label8.Text = "ゲームルール設定";
             // 
             // groupBox1
             // 
@@ -448,7 +448,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Form1";
-            this.Text = "Minecraft Bedrock Server Manager";
+            this.Text = "Minecraft Bedrock Server Manager 日本語化版 1.0.2.3";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
