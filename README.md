@@ -1,7 +1,7 @@
 # Minecraft Bedrock Server Manager 日本語化版
 Original:[Benjerman](https://github.com/Benjerman)  
 Original Project:[Github](https://github.com/Benjerman/Minecraft-Server-Manager)  
-![alt text](https://i.imgur.com/HeBCNjL.png)  
+![Imgur](https://imgur.com/4SG0mSH.png) 
 <br>
 <br>
 
@@ -18,7 +18,7 @@ Java Edition（以下、Java版）マインクラフトでは、公式サーバ�
 
 ## オリジナルからの変更点
 - UIを日本語化しました。
-- 公式サーバーのバージョンアップに伴い、`server.properties`の項目が増え、テキストボックスから見切れていたため、オンラインプレイヤー(Players Online)欄とサーバープロパティ(Current Game Rules)欄を入れ替え、サーバープロパティ欄を拡張しました。
+- ゲームルール欄のテキストがテキストボックスから見切れていたため、オンラインプレイヤー(Players Online)欄とゲームルール(Current Game Rules)欄を入れ替え、サーバープロパティ欄を拡張しました。
 - 各ボタンの大きさ、位置を変更しました。  
 <br>
 <br>
@@ -55,6 +55,7 @@ https://user-images.githubusercontent.com/69942251/139399350-ec1eea99-020b-4047-
 <img src="https://imgur.com/hze6rfi.png" width="320">
 
 9. `Minecraft-Server-Manager-master\Minecraft Server Manager\bin\x64\Release`の中に`Minecraft Server Manager.exe`と`Minecraft Server Manager.exe.Config`ができていればビルド成功です。  
+※32bitアプリとしてビルドされた方は、`Minecraft-Server-Manager-master\Minecraft Server Manager\bin\Release`の中を参照してください。  
 <img src="https://imgur.com/8PGWrAX.png" width="320">  
 <br>
 <br>
@@ -62,7 +63,7 @@ https://user-images.githubusercontent.com/69942251/139399350-ec1eea99-020b-4047-
 ## 使用方法
 1. [Minecraft公式ダウンロードページ](https://www.minecraft.net/ja-jp/download/server/bedrock)から統合版サーバーをダウンロードします。  
 1. 任意の場所にZIPフォルダーを解凍します。  
-1. 解凍したフォルダーの中にビルドで出てきた2つのファイルをコピーします。  
+1. `bedrock_server.exe`と同じディレクトリにビルドで出てきた2つのファイルをコピーします。  
 1. Minecraft Server Manager.exeを実行し、左上の開始ボタンを押すとサーバーが稼働します。  
 以上。  
 <br>
