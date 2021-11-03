@@ -213,7 +213,7 @@ namespace Minecraft_Server_Manager
                 if (this.minecraftProcess.HasExited)
                 {
                     txtOutput.AppendText("\r\n\r\nサーバーが停止しました。\r\n");
-                    File.AppendAllText(@"ServerLog.csv", "\r\n" + DateTime.Now.ToString() + " " + "The server has been shutdown.\r\n");
+                    File.AppendAllText(@"ServerLog.csv", "\r\n" + DateTime.Now.ToString() + " " + "サーバーが停止しました。\r\n");
                     return;
                 }
 
@@ -231,7 +231,7 @@ namespace Minecraft_Server_Manager
         public void ProcessExited(object sender, EventArgs e)
         {
             txtOutput.AppendText("\r\n\r\nサーバーが停止しました。\r\n");
-            File.AppendAllText(@"ServerLog.csv", "\r\n" + DateTime.Now.ToString() + " " + "The server has been shutdown.\r\n");
+            File.AppendAllText(@"ServerLog.csv", "\r\n" + DateTime.Now.ToString() + " " + "サーバーが停止しました。\r\n");
 
         }
 
@@ -243,36 +243,43 @@ namespace Minecraft_Server_Manager
 
         private void startServerButton_Click(object sender, EventArgs e)
         {
-            string processFileName = "";
+            try
+            {
+                string processFileName = "";
 
 
-            processFileName = @"bedrock_server.exe";
+                processFileName = @"bedrock_server.exe";
 
 
-            minecraftProcess = new System.Diagnostics.Process();
+                minecraftProcess = new System.Diagnostics.Process();
 
-            minecraftProcess.StartInfo.FileName = processFileName;
+                minecraftProcess.StartInfo.FileName = processFileName;
 
-            AddTextToOutputTextBox("Using this terminal: " + minecraftProcess.StartInfo.FileName);
+                AddTextToOutputTextBox("Using this terminal: " + minecraftProcess.StartInfo.FileName);
 
-            minecraftProcess.StartInfo.UseShellExecute = false;
-            minecraftProcess.StartInfo.CreateNoWindow = true;
-            minecraftProcess.StartInfo.RedirectStandardInput = true;
-            minecraftProcess.StartInfo.RedirectStandardOutput = true;
-            minecraftProcess.StartInfo.RedirectStandardError = true;
+                minecraftProcess.StartInfo.UseShellExecute = false;
+                minecraftProcess.StartInfo.CreateNoWindow = true;
+                minecraftProcess.StartInfo.RedirectStandardInput = true;
+                minecraftProcess.StartInfo.RedirectStandardOutput = true;
+                minecraftProcess.StartInfo.RedirectStandardError = true;
 
-            minecraftProcess.EnableRaisingEvents = true;
-            minecraftProcess.Exited += new EventHandler(ProcessExited);
-            minecraftProcess.ErrorDataReceived += new System.Diagnostics.DataReceivedEventHandler(ConsoleOutputHandler);
-            minecraftProcess.OutputDataReceived += new System.Diagnostics.DataReceivedEventHandler(ConsoleOutputHandler);
+                minecraftProcess.EnableRaisingEvents = true;
+                minecraftProcess.Exited += new EventHandler(ProcessExited);
+                minecraftProcess.ErrorDataReceived += new System.Diagnostics.DataReceivedEventHandler(ConsoleOutputHandler);
+                minecraftProcess.OutputDataReceived += new System.Diagnostics.DataReceivedEventHandler(ConsoleOutputHandler);
 
-            minecraftProcess.Start();
+                minecraftProcess.Start();
 
-            mcInputStream = minecraftProcess.StandardInput;
-            minecraftProcess.BeginOutputReadLine();
-            minecraftProcess.BeginErrorReadLine();
+                mcInputStream = minecraftProcess.StandardInput;
+                minecraftProcess.BeginOutputReadLine();
+                minecraftProcess.BeginErrorReadLine();
 
-            mcInputStream.WriteLine("gamerule");
+                mcInputStream.WriteLine("gamerule");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("このアプリケーションをbedrock_server.exeと\r\n同じディレクトリに配置して下さい。", "エラー：bedrock_server.exeが見つかりません", MessageBoxButtons.OK,MessageBoxIcon.Error);
+            }
         }
 
         private void stopServerButton_Click(object sender, EventArgs e)
@@ -285,14 +292,16 @@ namespace Minecraft_Server_Manager
             }
             catch(Exception ex)
             {
-                MessageBox.Show(ex.ToString());
+                MessageBox.Show("サーバーを開始して下さい。", "エラー：サーバーが開始されていません", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
         private void OnProcessExit(object sender, EventArgs e)
-        {           
+        {
             mcInputStream.WriteLine("stop");
-            Thread.Sleep(5000);
+            //MessageBox.Show("サーバーが停止しました。", "閉じるボタンが押されました", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            Thread.Sleep(3600000);
+            
         }
 
         private void weatherComboBox_SelectedIndexChanged(object sender, EventArgs e)
@@ -420,13 +429,13 @@ namespace Minecraft_Server_Manager
         private void backgroundWorker1_DoWork(object sender, System.ComponentModel.DoWorkEventArgs e)
         {
             mcInputStream.WriteLine("say THE SERVER IS GOING DOWN FOR A BACKUP IN 10 SECONDS");
-            txtOutput.AppendText("\r\n\r\nTelling players the server is going down in 10 seconds\r\n");
-            File.AppendAllText(@"ServerLog.csv", "\r\n" + DateTime.Now.ToString() + " " + "Telling players the server is going down in 10 seconds\r\n");
+            txtOutput.AppendText("\r\n\r\n全プレイヤーに10秒後にサーバーが停止する旨を伝えました。\r\n");
+            File.AppendAllText(@"ServerLog.csv", "\r\n" + DateTime.Now.ToString() + " " + "全プレイヤーに10秒後にサーバーが停止する旨を伝えました。\r\n");
 
 
             Thread.Sleep(10000);
-            txtOutput.AppendText("\r\nStopping Server\r\n");
-            File.AppendAllText(@"ServerLog.csv", DateTime.Now.ToString() + " " + "Stopping Server\r\n");
+            txtOutput.AppendText("\r\nサーバーを停止しています。\r\n");
+            File.AppendAllText(@"ServerLog.csv", DateTime.Now.ToString() + " " + "サーバーを停止しています。\r\n");
             mcInputStream.WriteLine("stop");
             Thread.Sleep(5000);
             string source_dir = "";
@@ -436,8 +445,8 @@ namespace Minecraft_Server_Manager
             destination_dir = @"backups\worlds" + DateTime.Now.ToString("hhmmttMMddyyyy");
 
 
-            txtOutput.AppendText("\r\nStarting Backup\r\n\r\n");
-            File.AppendAllText(@"ServerLog.csv", DateTime.Now.ToString() + " " + "Starting Backup\r\n");
+            txtOutput.AppendText("\r\nバックアップを開始します。\r\n\r\n");
+            File.AppendAllText(@"ServerLog.csv", DateTime.Now.ToString() + " " + "バックアップを開始します。\r\n");
             foreach (string dir in System.IO.Directory.GetDirectories(source_dir, "*", System.IO.SearchOption.AllDirectories))
             {
                 System.IO.Directory.CreateDirectory(System.IO.Path.Combine(destination_dir, dir.Substring(source_dir.Length + 1)));               
@@ -446,14 +455,14 @@ namespace Minecraft_Server_Manager
             foreach (string file_name in System.IO.Directory.GetFiles(source_dir, "*", System.IO.SearchOption.AllDirectories))
             {
                 System.IO.File.Copy(file_name, System.IO.Path.Combine(destination_dir, file_name.Substring(source_dir.Length + 1)));
-                txtOutput.AppendText("Backing up: " + file_name + "    TO:    " + destination_dir + file_name + "\r\n\r\n");
-                File.AppendAllText(@"ServerLog.csv", DateTime.Now.ToString() + " " + "Backing up: " + file_name + "    TO:    " + destination_dir + file_name + "\r\n");
+                txtOutput.AppendText("バックアップ対象: " + file_name + "\r\nバックアップ先: " + destination_dir + file_name + "\r\n\r\n");
+                File.AppendAllText(@"ServerLog.csv", DateTime.Now.ToString() + " " + "バックアップ対象: " + file_name + "\r\nバックアップ先: " + destination_dir + file_name + "\r\n");
                 txtOutput.ScrollToCaret();
 
             }
             Thread.Sleep(5000);
-            txtOutput.AppendText("\r\nBackup Complete. Starting server\r\n\r\n");
-            File.AppendAllText(@"ServerLog.csv", DateTime.Now.ToString() + " " + "Backup Complete. Starting server\r\n");
+            txtOutput.AppendText("\r\nバックアップが完了しました。サーバーを開始します。\r\n\r\n");
+            File.AppendAllText(@"ServerLog.csv", DateTime.Now.ToString() + " " + "バックアップが完了しました。サーバーを開始します。\r\n");
 
             startServerButton_Click(sender, e);
             
@@ -509,7 +518,7 @@ namespace Minecraft_Server_Manager
 
         private void Form1_Load(object sender, EventArgs e)
         {
-         
+            
         }
 
         private void gameRuleComboBox_SelectedIndexChanged(object sender, EventArgs e)

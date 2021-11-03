@@ -1,7 +1,7 @@
 # Minecraft Bedrock Server Manager 日本語化版
 Original:[Benjerman](https://github.com/Benjerman)  
 Original Project:[Github](https://github.com/Benjerman/Minecraft-Server-Manager)  
-![Imgur](https://imgur.com/4SG0mSH.png) 
+![Imgur](https://imgur.com/OmRatwx.png) 
 <br>
 <br>
 
@@ -16,9 +16,9 @@ Java Edition（以下、Java版）マインクラフトでは、公式サーバ�
 <br>
 <br>
 
-## オリジナルからの変更点
+## オリジナルからの大まかな変更点
 - UIを日本語化しました。
-- ゲームルール欄のテキストがテキストボックスから見切れていたため、オンラインプレイヤー(Players Online)欄とゲームルール(Current Game Rules)欄を入れ替え、サーバープロパティ欄を拡張しました。
+- ゲームルール欄(Current Game Rules)のテキストがテキストボックスから見切れていたため、オンラインプレイヤー(Players Online)欄とゲームルール欄を入れ替え、ゲームルール欄を拡張しました。
 - 各ボタンの大きさ、位置を変更しました。  
 <br>
 <br>

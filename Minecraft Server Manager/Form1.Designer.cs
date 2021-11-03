@@ -448,7 +448,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Form1";
-            this.Text = "Minecraft Bedrock Server Manager 日本語化版 1.0.2.3";
+            this.Text = "Minecraft Bedrock Server Manager 日本語化版 1.1.3.4";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
